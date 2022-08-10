@@ -11,5 +11,5 @@ module.exports = function (bbox, query, lngField = 'lng', latField = 'lat') {
       query = JSON.parse(query || '{}')
     } catch (err) {}
   }
-  return _.merge(query || {}, lng, lat)
+  return _.merge({}, query || {}, lng, lat)
 }
