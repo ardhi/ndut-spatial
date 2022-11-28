@@ -1,3 +1,4 @@
 {
-  "alias": "spatial"
+  "alias": "spatial",
+  "dependency": ["ndut-rest", "ndut-api", "ndut-extra"]
 }
