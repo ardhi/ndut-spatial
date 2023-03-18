@@ -1,6 +1,6 @@
 {
   "name": "ndut-spatial",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Spatial operation for Ndut Framework",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ardhi/ndut-spatial/issues"
   },
-  "homepage": "https://github.com/ardhi/ndut-spatial#readme"
+  "homepage": "https://github.com/ardhi/ndut-spatial#readme",
+  "dependencies": {
+    "@turf/turf": "^6.5.0"
+  }
 }
