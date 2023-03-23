@@ -1,6 +1,6 @@
 {
   "name": "ndut-spatial",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "Spatial operation for Ndut Framework",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ardhi/ndut-spatial#readme",
   "dependencies": {
-    "@turf/turf": "^6.5.0"
+    "@turf/turf": "^6.5.0",
+    "kea-geo": "0.0.12"
   }
 }
